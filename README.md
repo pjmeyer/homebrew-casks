@@ -1,18 +1,11 @@
-# Pjmeyer Casks
+# Homebrew Casks
+
+Alternative versions of homebrew casks, usually to enable alternate versions (in case of regressions).
 
 ## How do I install these formulae?
 
-`brew install pjmeyer/casks/<formula>`
+`brew install --cask pjmeyer/casks/<formula>`
 
-Or `brew tap pjmeyer/casks` and then `brew install <formula>`.
+Or `brew tap pjmeyer/casks` and then `brew install --cask <formula>`.
 
-Or, in a `brew bundle` `Brewfile`:
 
-```ruby
-tap "pjmeyer/casks"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
