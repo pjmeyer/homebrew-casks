@@ -5,8 +5,13 @@ cask "espanso@2.2.3" do
   url "https://github.com/espanso/espanso/releases/download/v#{version}/Espanso-Mac-M1.dmg",
       verified: "github.com/espanso/espanso/"
   name "Espanso"
-  desc "Cross-platform Text Expander written in Rust"
+  desc "Cross-platform Text Expander - signed by 'Auca Coyan Maillot'"
   homepage "https://espanso.org/"
+  # Creates 'App Background Activity' entry under 'Auca Coyan Maillot'
+  # - (no issue / fix for this)
+  # Issues blocking moving to latest:
+  # - https://github.com/espanso/espanso/issues/2545
+  # - https://github.com/espanso/espanso/issues/2530
 
   depends_on macos: ">= :big_sur"
   depends_on arch: :arm64
