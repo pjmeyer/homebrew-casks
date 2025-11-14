@@ -1,0 +1,4 @@
+root = true
+
+[*.rb]
+insert_final_newline = true
